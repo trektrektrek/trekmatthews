@@ -1,0 +1,361 @@
+body {
+	font-size: 13px;
+	font-family: 'Sarala', sans-serif;
+	font-family: 'Nunito', sans-serif;
+	font-family: "Helvetica", Arial, sans-serif;
+	background: #ffffff;
+	color: #bbbbbb;
+	line-height: 1.3em;
+	padding-bottom: 10px;
+}
+
+/* link  */
+
+a:link { font-family: 'Sarala', sans-serif; letter-spacing: 0px; text-decoration: none; color: #b1aab5;letter-spacing: 0em; font-weight: 700 }
+a:active { text-decoration: none; color: #b1aab5; }
+a:visited { text-decoration: none; color: #b1aab5; }
+.section a:hover { }
+a img { border: none; }
+
+
+
+/* @media screen width */
+
+/* phone/portrait width*/
+	#index a:link { 
+		font-size: 1em 
+	} 
+	.section_pass { 
+	display: none;
+	position: absolute ;
+	max-height: 1em;
+	top: 2em;
+	right: .25em;
+	z-index: 1;
+	transition: all .25s ease-in-out;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .3s ease;
+	transition: all .2s ease;
+	}
+
+	#section_title:hover .section_pass {
+	top: 0em;
+	}
+
+	.section_pass_active{
+	display: none;
+	position: absolute;
+	max-height: 1em;
+	right: .25em;
+	top: 0em;
+	z-index: 1;
+	}	
+
+ 	h1 {
+	 	 font-size: 13px; margin-bottom: 1em; font-weight: normal; color: rgba(0,0,0,0.6); 
+	}
+ 	h2 { 
+	 	font-size: 13px; margin-bottom: 1em; font-weight: italic; 
+	}
+ 	h3 { 
+	 	font-size: 13px; margin-bottom: 1em; text-align: right; padding: 0px 15px 0px 0px 
+	}
+ 	h4 { 
+	 	font-family: 'Sarala', sans-serif; font-size: 12px; margin: 10px 0px 6px 0px; padding-bottom: 4px; color:#bbbbbb; font-weight: bold;
+	 	line-height: 18px;
+	 	width: 86vw;
+	 	border-bottom: .3vh groove rgba(121, 99, 135, 0.12);
+	}
+ 	h5 { 
+	 	font-family: 'Sarala', sans-serif; margin-top: 10px; margin-bottom: 10px; position: relative; color: #bbbbbb 
+	 	}
+ 	h6 { 
+	 	margin-top: 13.5%; margin-bottom: 18px; position: relative; 
+	}
+ 	h7 { 
+	 	font-size: 12px; margin-bottom: 0; font-weight: 100; color:#bbbbbb 
+	}
+	/* gradient bar */
+	#gradient {
+	position: absolute;
+	left: 0;
+	top: 8vh;
+	height: 100%;
+	width: 4vw;
+	z-index: 0;
+	background: linear-gradient(-30deg, rgba(255, 245, 128, .7) .3%, rgba(246, 145, 98, 1) .9%, rgba(196, 191, 217, 1) 1.7%, rgba(243, 128, 138, 1) 5%, rgba(190, 167, 193, .8) 7%, rgba(75, 104, 177, .9) 12%, rgba(50, 79, 162, .3) 18%, rgba(243, 128, 138, .7) 25%, rgba(246, 145, 98, 1) 32%, rgba(255, 245, 128, .7) 38%, 	rgba(190, 167, 193, .6) 44%, rgba(181, 205, 235, 1) 50%, rgba(202, 190, 228, 0.96) 56%, rgba(255, 172, 127, .6) 64%, rgba(169, 167, 226, 0.73) 78%, rgba(203, 201, 239, 0.73) 85%, rgba(244, 217, 187, 0.73) 90%, rgba(255, 245, 128, .7) 96%, rgba(255, 172, 127, .6) 100%);
+	}
+	background:rgba(196, 191, 217, 0.96)
+	#index .section{
+	position: relative;
+	top: 1vh;
+	height: 3vh;
+	padding-right: 3%;
+	margin: 0px 1px 5px 2vw;
+	border-bottom: .3vh groove rgba(121, 99, 135, 0.06);
+	}
+	#exhibit .container { 
+		padding: 8vh 5% 0 14%; 
+		margin: 0; 
+	}
+ 	#exhibit p {
+	font-family: 'Nunito', sans-serif; 
+	font-size: 12px;
+	font-weight: 400;
+	color: #bbbbbb;
+	margin-bottom: 20px;
+	padding-left: 2vw;
+	width: 200px;
+	}
+	#index .header { 
+	position: absolute;
+	top:20%;
+	left: 2vw; 	
+	min-width: 8vh;
+	max-width: 14%;
+	height: 60%;
+	padding: 0 0 0 0
+	}
+	#index .header img{ 
+	position: relative;
+	max-width: 100%;
+	max-height: 100%;
+	}
+	#index .section{
+	float: left;
+	position: relative;
+	top: 20%;
+	height: 1.5em;
+	padding-right: 4%;
+	margin: 0px 0px 5px 2px;
+	border-bottom: 0vh groove rgba(121, 99, 135, 0.06);
+	}
+	#index .container {
+	position: relative;
+	top: 20%;
+	height: 80%;
+	min-width: 100%;
+	width: auto;
+	padding: 0% 0% 0 14%;
+	margin: 0;
+	}
+	#exhibit img { 
+	padding: 0px 10px 0px 0px;
+	margin: 10px 0px auto 0px; 
+	max-height: 90vh;
+    max-width: 80vw;
+    vertical-align: middle;
+	}
+	.vimeo { 
+		padding:100% 0 0 0;
+		position:relative;
+	}
+	.vimeo iframe{
+	float: left;
+	margin-top: 10px;
+	position:absolute;
+	top:0;left:0;width:100%;height:100%;
+	}
+
+/* laptop width */
+@media only screen and (min-width: 992px) {
+	#index a:link { 
+		font-size: 1.125em 
+		} 
+	.section_pass { 
+	display :block; 
+	position: absolute ;
+	max-height: 2em;
+	top: 2em;
+	right: .25em;
+	z-index: 1;
+	transition: all .25s ease-in-out;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .3s ease;
+	transition: all .2s ease;
+	}
+
+	#section_title:hover .section_pass {
+	top: 0em;
+	}
+
+	.section_pass_active{
+	display: block;
+	position: absolute;
+	max-height: 2em;
+	right: .25em;
+	top: 0em;
+	z-index: 1;
+	}	
+ 	h4 { 
+	 	font-size: 16px; margin: 10px 0px 4px 0px; 
+	 	width: 32vw;
+	 	} 	
+	#gradient {
+	width: 1vw;
+	}
+	#index .header { 
+	left: 6vw; 	
+	}
+	#index .section{
+	float: left;
+	position: relative;
+	top: 20%;
+	height: 1.5em;
+	padding-right: 30px;
+	margin: 0px 15px 5px 0px;
+	border-bottom: .3vh groove rgba(121, 99, 135, 0.06);
+	}
+	#index .container {
+	position: relative;
+	top: 20%;
+	height: 80%;
+	min-width: 100%;
+	padding: 0% 0% 0 15%;
+	margin: 0px 12px 0px 0px;
+	}
+	#exhibit .info { 
+	width: 380px;
+	} 	
+ 	#exhibit p { 
+	font-family: 'Nunito', sans-serif; 	
+	font-size: 12px;
+	width: 250px;
+	padding-left: 1vw;
+	}
+	#exhibit img { 
+    max-width: 60vw;
+	}
+	.vimeo { 
+		padding:0 0 0 0;
+		position:relative;
+	}
+	.vimeo iframe{
+	float: left;
+	margin-top: 10px;
+	position:relative;
+	top:0;left:0;width:48%;height:75%;
+	}
+	#exhibit .container { 
+		padding: 8vh 2% 0px 15%; 
+		margin: 0 0 0% 0%; 
+	}
+}
+
+#exhibit .container { max-width: 100%; }
+
+
+/* body text */
+#index p { 
+	margin-bottom: .1em; 
+}
+
+/* index */
+#index { position: fixed; width: 100%; height: 8vh; background: rgba(255, 255, 255, 0.85); z-index: 1; }
+#index .top { background: : #c79e9e; }
+#index_shadow { position: fixed; top: 8vh; width: 100%; height: 0.3vh; background: rgba(121, 99, 135, 0.12); z-index: 1;}
+
+/* styling the index */
+#index ul { list-style: none; margin: 0; }
+#index ul.section { }
+#index ul.subsection {  }
+
+/* the follow rules for index are not required */
+/* they are mostly for complex customization */
+/* for tag display */
+#index ul#all_tags { list-style-type: none; margin-bottom: 1em; }
+#index ul#all_tags li { display: inline; margin-right: 3px; }
+#index ul#all_tags li a {  }
+
+/* active section title */
+#index span.active_section_title,
+#index span.active_section_title a { font-weight: normal; }
+
+/* active exhibit title parts */
+li.active a:link, li a.active, li.active a:hover, li a.active, li.active a:active, li a.active, 
+li.active a:visited, li a.active, li span.active, #index ul.section li.active a:link, 
+#index ul.section li.active a:hover, #index ul.section li.active a:active, #index ul.section li.active a:visited
+{ font-weight: normal; }
+
+/* additional #index options */
+#index ul li .password a { /* background: url(../img/locked.gif) right center no-repeat; padding-right: 18px; */ }
+
+/* the "new" indicator */
+#index ul li sup { color: #0c0; font-weight: bold; text-transform: uppercase; font-size: 8px; vertical-align: top; }
+/* end styling for index */
+
+/* links styles only for the #index region */
+
+#index a:hover {  } 
+#index a:active {  } 
+#index a:visted {  }
+
+/* links styles only for the #exhibit region */
+#exhibit a:link {  } 
+#exhibit a:hover {  } 
+#exhibit a:active {  } 
+#exhibit a:visted {  } 
+
+#exhibit video { 
+	padding: 0px 20px 0px 0px;
+	margin-top: 10px;
+	max-height: 90vh;
+	max-width: 100%;
+}
+#index .bot { 
+	position: relative;  
+	text-align: right; 
+	padding: 0 5% 0 5% 
+}
+#index .top p { 
+	position: relative; 
+}
+
+/*nav links*/
+#section {
+	position: relative;
+	overflow-y:  hidden;
+	overflow-x: hidden
+}
+
+#section_title {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+#index .container .bot {
+	max-height: 100%;
+	min-width: 90%; 
+	width: auto
+}
+.container {
+	position: relative
+}
+
+.zine { 
+    max-width: 70%;
+    width: auto;
+}
+
+.video_resize {
+	max-width: 60%;
+	width: auto;
+	max-height: 100vh;
+}
+
+
+#exhibit .buddies {
+	float: none;
+}
+
+#index .bot a {
+	color: #e0e0e0
+}
+
+.active_section_title {
+}
+
