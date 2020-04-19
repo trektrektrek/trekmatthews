@@ -3,161 +3,119 @@ body {
   font-family: "Sarala", "Helvetica", Arial, sans-serif;
   color: #bbbbbb;
   line-height: 1.3em;
-  padding-bottom: 10px;
 }
-/* Header */
+
 header {
-	border-bottom: 3px solid rgba(121, 99, 135, 0.12);
+  background: rgba(255, 255, 255, 0.85);
+  border-bottom: 2px solid rgba(121, 99, 135, 0.12);
+  display: flex;
+  position: fixed;
+  z-index: 1;
 }
 
-header .icon {
-  position: absolute;
-  top: 20%;
-  left: 2vw;
-  min-width: 8vh;
-  max-width: 14%;
-  height: 60%;
-  padding: 0 0 0 0;
+header .icon-container {
+  align-items: center;
+  display: flex;
+  height: 5em;
+  justify-content: center;
+  width: 15vw;
 }
 
-header .icon img {
-  position: relative;
-  max-width: 100%;
-  max-height: 100%;
+header .icon-container img {
+  width: 35.75px;
 }
 
 header nav {
-	display: flex;
-	align-items: center;
-  top: 20%;
-  height: 80%;
-  min-width: 100%;
-  width: auto;
-  padding: 0% 0% 0 14%;
-  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 85vw;
+}
+
+header nav div {
+  border-bottom: 0.3vh groove rgba(121, 99, 135, 0.06);
+  font-family: "Sarala", sans-serif;
+  height: 1.5em;
+  margin-right: 15px;
+  overflow: hidden;
+}
+
+header nav div a {
+  color: #b1aab5;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0em;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+header nav div img {
+  height: 2em;
+  transform: translateY(20px);
+  transition: transform 0.2s ease;
+}
+
+header nav div:hover img {
+  transform: translateY(0);
 }
 
 header nav .link {
   border-bottom: 0.3vh groove rgba(121, 99, 135, 0.06);
-	font-weight: 700;
-	height: 3vh;
-	margin-right: 1em;
-	overflow: hidden;
-	padding-right: 3%;
-	position: relative;
-}
-
-/* header .section {
-  float: left;
-  height: 1.5em;
-  padding-right: 4%;
-  margin: 0px 0px 5px 2px;
-  border-bottom: 0vh groove rgba(121, 99, 135, 0.06);
-} */
-
-a:link {
-  font-family: "Sarala", sans-serif;
-  letter-spacing: 0px;
-  text-decoration: none;
-  color: #b1aab5;
-  letter-spacing: 0em;
   font-weight: 700;
-}
-a:active {
-  text-decoration: none;
-  color: #b1aab5;
-}
-a:visited {
-  text-decoration: none;
-  color: #b1aab5;
+  height: 3vh;
+  margin-right: 1em;
+  overflow: hidden;
+  padding-right: 3%;
+  position: relative;
 }
 
-a img {
-  border: none;
+main {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15vw;
+  padding-top: 6em;
+  position: relative;
+  max-width: 60vw;
 }
 
-nav .link img {
-  display: none;
-  position: absolute;
-  max-height: 1em;
-  top: 2em;
-  right: 0.25em;
-  z-index: 1;
-  transition: all 0.25s ease-in-out;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.2s ease;
+main img,
+main iframe {
+  max-height: 90vh;
+  object-fit: contain;
+  max-width: 100%;
+  padding-top: 1em;
 }
 
-.link:hover img {
-  top: 0em;
+main iframe.ratio12-19 {
+  width: calc(90vh * 0.63157);
 }
-/* Active page nav icon */
-/* .section_pass_active {
-  display: none;
-  position: absolute;
-  max-height: 1em;
-  right: 0.25em;
-  top: 0em;
-  z-index: 1;
-} */
 
-h1 {
-  font-size: 13px;
-  margin-bottom: 1em;
-  font-weight: normal;
-  color: rgba(0, 0, 0, 0.6);
+main iframe .vp-center {
+  justify-content: flex-start;
 }
-h2 {
-  font-size: 13px;
-  margin-bottom: 1em;
-  font-weight: italic;
-}
-h3 {
-  font-size: 13px;
-  margin-bottom: 1em;
-  text-align: right;
-  padding: 0px 15px 0px 0px;
-}
-h4 {
-  font-family: "Sarala", sans-serif;
-  font-size: 12px;
-  margin: 10px 0px 6px 0px;
-  padding-bottom: 4px;
+
+main h4 {
+  border-bottom: 0.3vh groove rgba(121, 99, 135, 0.12);
   color: #bbbbbb;
+  font-size: 16px;
   font-weight: bold;
   line-height: 18px;
-  width: 86vw;
-  border-bottom: 0.3vh groove rgba(121, 99, 135, 0.12);
+  margin: 10px 0 4px;
+  padding-bottom: 4px;
 }
-h5 {
-  font-family: "Sarala", sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  position: relative;
-  color: #bbbbbb;
+
+main p {
+  font-family: "Nunito", sans-serif;
+  padding-left: 1em;
+  margin-bottom: 20px;
 }
-h6 {
-  margin-top: 13.5%;
-  margin-bottom: 18px;
-  position: relative;
-}
-h7 {
-  font-size: 12px;
-  margin-bottom: 0;
-  font-weight: 100;
-  color: #bbbbbb;
-}
-/* gradient bar */
-#gradient {
-  position: absolute;
-  left: 0;
-  top: 8vh;
+
+.gradient {
   height: 100%;
-  width: 4vw;
-  z-index: 0;
+  left: 0;
+  position: absolute;
+  top: 5em;
+  width: 1em;
   background: linear-gradient(
     -30deg,
     rgba(255, 245, 128, 0.7) 0.3%,
@@ -182,258 +140,15 @@ h7 {
   );
 }
 
-#exhibit .container {
-  padding: 8vh 5% 0 14%;
-  margin: 0;
-}
-#exhibit p {
-  font-family: "Nunito", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  color: #bbbbbb;
-  margin-bottom: 20px;
-  padding-left: 2vw;
-  width: 200px;
-}
-
-#exhibit img {
-  padding: 0px 10px 0px 0px;
-  margin: 10px 0px auto 0px;
-  max-height: 90vh;
-  max-width: 80vw;
-  vertical-align: middle;
-}
-.vimeo {
-  padding: 100% 0 0 0;
-  position: relative;
-}
-.vimeo iframe {
-  float: left;
-  margin-top: 10px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* laptop width */
-@media only screen and (min-width: 992px) {
-  header a:link {
-    font-size: 1.125em;
+@media (max-width: 414px) {
+  main img,
+  main iframe {
+    object-fit: contain;
+    max-width: 75vw;
+    padding-top: 1em;
   }
-  nav .link img {
-    display: block;
-    position: absolute;
-    max-height: 2em;
-    top: 2em;
-    right: 0.25em;
-    z-index: 1;
-    transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.3s ease;
-    transition: all 0.2s ease;
+  main iframe.ratio12-19 {
+    height: calc(75vw * 1.58333);
+    width: unset;
   }
-  /* Active page nav icon */
-  /* .section_pass_active {
-    display: block;
-    position: absolute;
-    max-height: 2em;
-    right: 0.25em;
-    top: 0em;
-    z-index: 1;
-  } */
-  h4 {
-    font-size: 16px;
-    margin: 10px 0px 4px 0px;
-    width: 32vw;
-  }
-  #gradient {
-    width: 1vw;
-  }
-  header .icon {
-    left: 6vw;
-  }
-  header .section {
-    float: left;
-    position: relative;
-    top: 20%;
-    height: 1.5em;
-    padding-right: 30px;
-    margin: 0px 15px 5px 0px;
-    border-bottom: 0.3vh groove rgba(121, 99, 135, 0.06);
-  }
-  header nav {
-    position: relative;
-    top: 20%;
-    height: 80%;
-    min-width: 100%;
-    padding: 0% 0% 0 15%;
-    margin: 0px 12px 0px 0px;
-  }
-  #exhibit .info {
-    width: 380px;
-  }
-  #exhibit p {
-    font-family: "Nunito", sans-serif;
-    font-size: 12px;
-    width: 250px;
-    padding-left: 1vw;
-  }
-  #exhibit img {
-    max-width: 60vw;
-  }
-  .vimeo {
-    padding: 0 0 0 0;
-    position: relative;
-  }
-  .vimeo iframe {
-    float: left;
-    margin-top: 10px;
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 48%;
-    height: 75%;
-  }
-  #exhibit .container {
-    padding: 8vh 2% 0px 15%;
-    margin: 0 0 0% 0%;
-  }
-}
-
-#exhibit .container {
-  max-width: 100%;
-}
-
-/* body text */
-header p {
-  margin-bottom: 0.1em;
-}
-
-/* index */
-header {
-  position: fixed;
-  width: 100%;
-  height: 8vh;
-  background: rgba(255, 255, 255, 0.85);
-  z-index: 1;
-}
-header .top {
-  background: #c79e9e;
-}
-header_shadow {
-  position: fixed;
-  top: 8vh;
-  width: 100%;
-  height: 0.3vh;
-  background: rgba(121, 99, 135, 0.12);
-  z-index: 1;
-}
-
-/* styling the index */
-header ul {
-  list-style: none;
-  margin: 0;
-}
-header ul.section {
-}
-header ul.subsection {
-}
-
-/* the follow rules for index are not required */
-/* they are mostly for complex customization */
-/* for tag display */
-header ul#all_tags {
-  list-style-type: none;
-  margin-bottom: 1em;
-}
-header ul#all_tags li {
-  display: inline;
-  margin-right: 3px;
-}
-header ul#all_tags li a {
-}
-
-/* active section title */
-header span.active_section_title,
-header span.active_section_title a {
-  font-weight: normal;
-}
-
-/* active exhibit title parts */
-li.active a:link,
-li a.active,
-li.active a:hover,
-li a.active,
-li.active a:active,
-li a.active,
-li.active a:visited,
-li a.active,
-li span.active,
-header ul.section li.active a:link,
-header ul.section li.active a:hover,
-header ul.section li.active a:active,
-header ul.section li.active a:visited {
-  font-weight: normal;
-}
-
-/* additional header options */
-header ul li .password a {
-  /* background: url(../img/locked.gif) right center no-repeat; padding-right: 18px; */
-}
-
-/* the "new" indicator */
-header ul li sup {
-  color: #0c0;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 8px;
-  vertical-align: top;
-}
-/* end styling for index */
-
-#exhibit video {
-  padding: 0px 20px 0px 0px;
-  margin-top: 10px;
-  max-height: 90vh;
-  max-width: 100%;
-}
-header .bot {
-  position: relative;
-  text-align: right;
-  padding: 0 5% 0 5%;
-}
-header .top p {
-  position: relative;
-}
-
-/*nav links*/
-#section {
-  overflow: hidden;
-}
-
-.section_title {
-  overflow: hidden;
-}
-
-.zine {
-  max-width: 70%;
-  width: auto;
-}
-
-.video_resize {
-  max-width: 60%;
-  width: auto;
-  max-height: 100vh;
-}
-
-#exhibit .buddies {
-  float: none;
-}
-
-header .bot a {
-  color: #e0e0e0;
 }
