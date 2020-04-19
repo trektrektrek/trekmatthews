@@ -1,145 +1,229 @@
-<html lang="en-us"><head>
-<meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1" name="viewport" />
-<title>personal work</title>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>trek matthews</title>
+    <!-- <link href="http://trekmatthews.com/xml/" title="RSS" type="application/rss+xml" rel="alternate"> -->
+    <link type="text/css" href="./assets/css/reset.css" rel="stylesheet" />
+    <link type="text/css" href="./assets/css/style.css" rel="stylesheet" />
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <script src="./assets/js/jquery.js" type="text/javascript"></script>
+    <script src="./assets/js/movement.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        move_up();
+        $("#menu a").bind("click", function (event) {
+          do_click();
+        });
+      });
+    </script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-<link href="http://trekmatthews.com/xml/" title="RSS" type="application/rss+xml" rel="alternate">
-<link type="text/css" href="./assets/css/reset.css" rel="stylesheet">
-<link type="text/css" href="./assets/css/style.css" rel="stylesheet">
+      ga("create", "UA-56560038-1", "auto");
+      ga("send", "pageview");
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito|Sarala:700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<link rel="icon" href="./images/favicon.ico" type="image/x-icon"> 
-<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon"> 
+  <body>
+    <header>
+      <div class="icon-container">
+        <a href="./index.html">
+          <img src="./assets/images/top-circle.svg" />
+        </a>
+      </div>
+      <nav>
+        <div>
+          <a href="./info.html">info</a>
+          <img src="./assets/images/web-train-pass.svg" />
+        </div>
+        <div>
+          <a href="./personal.html">personal</a>
+          <img class="active" src="./assets/images/web-train-pass.svg" />
+        </div>
+        <div>
+          <a href="./client.html">client</a>
+          <img src="./assets/images/web-train-pass.svg" />
+        </div>
+        <div>
+          <a href="http://trekmatthews.bigcartel.com" target="_blank">shop</a>
+          <img src="./assets/images/web-train-pass.svg" />
+        </div>
+        <div>
+          <a href="./film.html">film</a>
+          <img src="./assets/images/web-train-pass.svg" />
+        </div>
+      </nav>
+    </header>
 
-<script src="./assets/js/jquery.js" type="text/javascript"></script>
-<script src="./assets/js/movement.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-$(document).ready(function()
-{
-	move_up(); $('#menu a').bind('click', function(event) { do_click(); });
-});
-</script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-56560038-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
-<link href="https://fonts.googleapis.com/css?family=Sarala:700&display=swap" rel="stylesheet">
-
-
-</head>
-
-<body class="exhibits section-2 exhibit-4 format-no_thumbs">
-<div id="index">
-<div class="header"><a href="http://www.trekmatthews.com"><img src="./images/top-circle.svg"></a></div>
-<div class="container">
-
-<ul id="section" class="section">
-<li><span class="section_title" id="section_title"><img class="section_pass" src="./images/web-train-pass.svg"/><a id="section_link" href="./info.html">info</a></span>
-<ul>
-</ul>
-</li>
-</ul>
-<ul id="section" class="section">
-<li><span class="section_title" id="section_title"><img class="section_pass_active" src="./images/web-train-pass.svg"/><a id="section_link" href="./personal.html">personal</a></span>
-<ul>
-</ul>
-</li>
-</ul>
-<ul id="section" class="section">
-<li><span class="section_title" id="section_title"><img class="section_pass" src="./images/web-train-pass.svg"/><a id="section_link" href="./client.html">client</a></span>
-<ul>
-</ul>
-</li>
-</ul>
-<ul id="section" class="section">
-<li><span class="section_title" id="section_title"><img class="section_pass" src="./images/web-train-pass.svg"/><a id="section_link" href="http://trekmatthews.bigcartel.com" target=_blank>shop</a></span>
-<ul>
-</ul>
-</li>
-</ul>
-<ul id="section" class="section">
-<li><span class="section_title" id="section_title"><img class="section_pass" src="./images/web-train-pass.svg"/><a id="section_link" href="./film.html">film</a></span>
-<ul>
-</ul>
-</li>
-</ul>
-
-
-<div class="bot"></div>
-
-
-</div>
-</div>
-
-<div id="index_shadow">
-	<svg width="100%" height="1%">
-	<rect width="100%" height="1%" style="fill:rgb(255,255,255);stroke-width:0;stroke:rgb(0,0,0)" />
-</svg>
-</div>
-
-<div id="exhibit">
-<div class="container">
-<div id="gradient"></div>
-<div class="center-fit">
-
-<div class="top"><!-- --></div>
-<!-- text and image -->
-	<video class="resize" muted autoplay playsinline loop src="./images/interior/bokeh-kodemari-web.mp4"></video><br>
-	<img class="buddies resize" src="./images/interior/chrysanthemum.png">
-	<img class="buddies resize" src="./images/interior/peony-grass.jpg">
-	<img class="buddies resize" src="./images/interior/peony-plum.jpg">
-	<img class="buddies resize" src="./images/interior/kura_ikebana-1.jpg">
-	<img class="buddies resize" src="./images/interior/kura_ikebana-2.jpg"><h4>Countryside Station Ikebana</h4>
-	<img class="buddies resize" src="./images/interior/studio-kura_postcard.jpg"><h4>Ogi Station Postcard</h4>
-	<img class="buddies resize" src="./images/interior/train-traffic_RISO_full.jpg">
-	<img class="buddies resize" src="./images/interior/traffic-cylinders_web.jpg">
-	<img class="buddies resize" src="./images/interior/train-int_web.jpg"><h4>Traffic Divider Exterior / Kintetsu Nara Line Train Interior</h4><p>Illustration, 3-color risographs</p>
-	<img class="buddies resize" src="./images/interior/eva500_full.jpg"><h4>EVA 500 Shinkansen at Shin-Osaka</h4><p>3-panel illustration</p>	
-	<img class="buddies resize" src="./images/interior/night_rain_comp-web.jpg"><h4>Objects in Snow</h4><p>3D composition</p>
-	<img class="buddies resize" src="./images/interior/hiraoka_full.jpg"><h4>Hiraoka Station, East Underpass Entrance</h4>
-	<img src="./images/ulterior/bibliotheka-spread.jpg">
-	<img src="./images/ulterior/pushkinskaya-spread.jpg"><h4>Transfer Point II</h4><p>zine illustration, layout</p>
-	<img class="resize" src="./images/ulterior/zine_cover.jpg"<br>
-	<img class="resize" src="./images/ulterior/zine_shimokitazawa.jpg"<br><h4>Transfer Point I</h4><p>zine illustration, layout</p>
-	<img class="buddies resize" src="./images/interior/Moscow_Metro_View4-web.jpg"><h4>Artmossphere, guest curated by Mónica Campana</h4><p>Exhibition Installation at Manege in Moscow, Russia</p><br>
-	<img class="buddies resize" src="./images/interior/Moscow_Metro_View1-web.jpg"><h4>Moscow Metro, Object 1: Station Entrace</h4><br>
-	<img class="buddies resize" src="./images/interior/Moscow_Metro_View2-web.jpg"><h4>Moscow Metro, Object 2: Station Platform</h4><br>
-	<img class="buddies resize" src="./images/interior/Moscow_Metro_View3-web.jpg"><h4>Moscow Metro, Object 3: Train Car</h4><br>
-	<img class="buddies resize" src="./images/interior/Moscow_Metro_Linen1-web.jpg"><h4>Moscow Metro: Station Exterior</h4><br>
-	<img class="buddies resize" src="./images/interior/Moscow_Metro_Linen2-web.jpg"><h4>Moscow Metro: Station Interior</h4><br>
-	<img class="buddies resize" src="./images/interior/hiraoka_full.jpg"><h4>Hiraoka Station, East Underpass Entrance</h4><br>	
-	<img class="buddies resize" src="./images/interior/Temma_Station-web3.jpg"><h4>JR Osaka Loop Line at Temma Station / 天満駅の入口</h4><p>gouache, graphite on paper — 18.5in.x30in.</p><br>
-	<img class="resize" src="./images/interior/trekmatthews_objectsthroughwindow_web.jpg"><h4>Objects Through Window</h4><p>gouache on paper — 24in.x21in.</p><br>
-	<img class="resize" src="./images/interior/trekmatthews_metro_oblique_web.jpg"><h4>Metro Study in Oblique Perspective</h4><p>gouache on paper — 26in.x40in.</p><br>
-	<img class="resize" src="./images/interior/trekmatthews_stairwell_web.jpg"><h4>Objects On Stairwell</h4><p>gouache on paper — 40in.x26in.</p><br>
-	<img class="buddies resize" src="./images/interior/trekmatthews_Tokyo_Metro1.jpg"><h4>Tokyo Metro Study 1 :: Sangenjaya-eki Entrance</h4><p>acrylic & gouache on paper ;; 26in.x28in.</p><br>
-	<img class="buddies resize" src="./images/interior/trekmatthews_Tokyo_Metro2.jpg"><h4>Tokyo Metro Study 2 :: Platform Navigation & Support</h4><p>acrylic & gouache on paper ;; 26in.x28in.</p><br>
-	<img class="buddies resize" src="./images/interior/trekmatthews_Tokyo_Metro3.jpg"><h4>Tokyo Metro Study 3 :: Yamanote-sen at Ikebukuro-eki Platform Study</h4><p>acrylic & gouache on paper ;; 22in.x40in.</p><br>
-	<img class="buddies resize" src="./images/interior/trekmatthews_Tokyo_Metro4.jpg"><h4>Tokyo Metro Study 4 :: Ikebukuro-eki Entrance Study</h4><p>acrylic & gouache on paper ;; 22in.x40in.</p><br>
-	<img class="buddies resize" src="./images/interior/Shibuya_Eki1_web.jpg"><h4>渋[谷]駅 :: Shibuya-eki 1</h4><p>gouache on paper — 40in.x26in.</p><br>
-	<img class="buddies resize" src="./images/interior/Shibuya_Eki2_web.jpg"><h4>渋谷[駅] :: Shibuya-eki 2</h4><p>gouache on paper — 40in.x26in.</p><br>
-	<img class="buddies resize" src="./images/interior/Shibuya_Eki3_web.jpg"><h4>[渋]谷駅 :: Shibuya-eki 3</h4><p>gouache on paper — 40in.x26in.</p><br>
-	<img class="buddies resize" src="./images/interior/trekmatthews_Shinjuku_Eki1.jpg"><h4>新[宿]駅 :: Shinjuku-eki 1</h4><p>gouache on paper — 40in.x26in.</p><br>
-	<img class="buddies resize" src="./images/interior/Shinjuku_Eki2_web.jpg"><h4>新宿[駅] :: Shinjuku-eki 2</h4><p>gouache on paper — 40in.x26in.</p><br>
-	<img class="buddies resize" src="./images/interior/trekmatthews_Shinjuku_Eki3.jpg"><h4>[新]宿駅 :: Shinjuku-eki 3</h4><p>gouache on paper — 40in.x26in.</p><br>
-	<img class="buddies resize" src="./images/interior/trekmatthews_shadow002-2.jpg"><h4>casted shadow study 002</h4><p>gouache on paper — 34in.x25in.</p><br>
-	<img class="buddies resize" src="./images/interior/trekmatthews_shadow003.jpg"><h4>casted shadow study 003</h4><p>gouache on paper — 34in.x25in.</p><br>
-	<img class="buddies resize" src="./images/interior/trekmatthews_ubahn-2.jpg">
-	<img class="buddies resize" src="./images/interior/trekmatthews_u3_2.jpg"><h4>[U]-Bahn &amp; U-[3]</h4><p>gouache on paper — 34in.x25in. each</p><br>
-	<img class="buddies resize" src="./images/interior/trekmatthews_monotype_ramp2.jpg"><h4>bus composition: up hill</h4><p>monotype: oil on paper — 30in.x22in.</p>
-	<img class="buddies resize" src="./images/interior/trekmatthews_monotype_j2.jpg"><h4>bus composition: en route</h4><p>monotype: oil on paper — 30in.x22in.</p>
-
-
-</div>
-</div>
-
-
-
-</body></html>
+    <main>
+      <div class="gradient"></div>
+      <iframe
+        class="ratio12-19"
+        src="https://player.vimeo.com/video/407249013?title=0&sidedock=0&controls=0&byline=0&portrait=0&autoplay=1&loop=1&autopause=0"
+        width="640"
+        height="1013"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        allowfullscreen
+      ></iframe>
+      <img src="./assets/images/interior/chrysanthemum.png" />
+      <img src="./assets/images/interior/peony-grass.jpg" />
+      <img src="./assets/images/interior/peony-plum.jpg" />
+      <img src="./assets/images/interior/kura_ikebana-1.jpg" />
+      <img src="./assets/images/interior/kura_ikebana-2.jpg" />
+      <h4>Countryside Station Ikebana</h4>
+      <img src="./assets/images/interior/studio-kura_postcard.jpg" />
+      <h4>Ogi Station Postcard</h4>
+      <img src="./assets/images/interior/train-traffic_RISO_full.jpg" />
+      <img src="./assets/images/interior/traffic-cylinders_web.jpg" />
+      <img src="./assets/images/interior/train-int_web.jpg" />
+      <h4>Traffic Divider Exterior / Kintetsu Nara Line Train Interior</h4>
+      <p>Illustration, 3-color risographs</p>
+      <img src="./assets/images/interior/eva500_full.jpg" />
+      <h4>EVA 500 Shinkansen at Shin-Osaka</h4>
+      <p>3-panel illustration</p>
+      <img src="./assets/images/interior/night_rain_comp-web.jpg" />
+      <h4>Objects in Snow</h4>
+      <p>3D composition</p>
+      <img src="./assets/images/interior/hiraoka_full.jpg" />
+      <h4>Hiraoka Station, East Underpass Entrance</h4>
+      <img src="./assets/images/ulterior/bibliotheka-spread.jpg" />
+      <img src="./assets/images/ulterior/pushkinskaya-spread.jpg" />
+      <h4>Transfer Point II</h4>
+      <p>zine illustration, layout</p>
+      <img src="./assets/images/ulterior/zine_cover.jpg" <br />
+      <img src="./assets/images/ulterior/zine_shimokitazawa.jpg" <br />
+      <h4>Transfer Point I</h4>
+      <p>zine illustration, layout</p>
+      <img src="./assets/images/interior/Moscow_Metro_View4-web.jpg" />
+      <h4>Artmossphere, guest curated by Mónica Campana</h4>
+      <p>Exhibition Installation at Manege in Moscow, Russia</p>
+      <br />
+      <img src="./assets/images/interior/Moscow_Metro_View1-web.jpg" />
+      <h4>Moscow Metro, Object 1: Station Entrace</h4>
+      <br />
+      <img src="./assets/images/interior/Moscow_Metro_View2-web.jpg" />
+      <h4>Moscow Metro, Object 2: Station Platform</h4>
+      <br />
+      <img src="./assets/images/interior/Moscow_Metro_View3-web.jpg" />
+      <h4>Moscow Metro, Object 3: Train Car</h4>
+      <br />
+      <img src="./assets/images/interior/Moscow_Metro_Linen1-web.jpg" />
+      <h4>Moscow Metro: Station Exterior</h4>
+      <br />
+      <img src="./assets/images/interior/Moscow_Metro_Linen2-web.jpg" />
+      <h4>Moscow Metro: Station Interior</h4>
+      <br />
+      <img src="./assets/images/interior/hiraoka_full.jpg" />
+      <h4>Hiraoka Station, East Underpass Entrance</h4>
+      <br />
+      <img src="./assets/images/interior/Temma_Station-web3.jpg" />
+      <h4>JR Osaka Loop Line at Temma Station / 天満駅の入口</h4>
+      <p>gouache, graphite on paper — 18.5in.x30in.</p>
+      <br />
+      <img
+        src="./assets/images/interior/trekmatthews_objectsthroughwindow_web.jpg"
+      />
+      <h4>Objects Through Window</h4>
+      <p>gouache on paper — 24in.x21in.</p>
+      <br />
+      <img src="./assets/images/interior/trekmatthews_metro_oblique_web.jpg" />
+      <h4>Metro Study in Oblique Perspective</h4>
+      <p>gouache on paper — 26in.x40in.</p>
+      <br />
+      <img src="./assets/images/interior/trekmatthews_stairwell_web.jpg" />
+      <h4>Objects On Stairwell</h4>
+      <p>gouache on paper — 40in.x26in.</p>
+      <br />
+      <img src="./assets/images/interior/trekmatthews_Tokyo_Metro1.jpg" />
+      <h4>Tokyo Metro Study 1 :: Sangenjaya-eki Entrance</h4>
+      <p>acrylic & gouache on paper ;; 26in.x28in.</p>
+      <br />
+      <img src="./assets/images/interior/trekmatthews_Tokyo_Metro2.jpg" />
+      <h4>Tokyo Metro Study 2 :: Platform Navigation & Support</h4>
+      <p>acrylic & gouache on paper ;; 26in.x28in.</p>
+      <br />
+      <img src="./assets/images/interior/trekmatthews_Tokyo_Metro3.jpg" />
+      <h4>
+        Tokyo Metro Study 3 :: Yamanote-sen at Ikebukuro-eki Platform Study
+      </h4>
+      <p>acrylic & gouache on paper ;; 22in.x40in.</p>
+      <br />
+      <img src="./assets/images/interior/trekmatthews_Tokyo_Metro4.jpg" />
+      <h4>Tokyo Metro Study 4 :: Ikebukuro-eki Entrance Study</h4>
+      <p>acrylic & gouache on paper ;; 22in.x40in.</p>
+      <br />
+      <img src="./assets/images/interior/Shibuya_Eki1_web.jpg" />
+      <h4>渋[谷]駅 :: Shibuya-eki 1</h4>
+      <p>gouache on paper — 40in.x26in.</p>
+      <br />
+      <img src="./assets/images/interior/Shibuya_Eki2_web.jpg" />
+      <h4>渋谷[駅] :: Shibuya-eki 2</h4>
+      <p>gouache on paper — 40in.x26in.</p>
+      <br />
+      <img src="./assets/images/interior/Shibuya_Eki3_web.jpg" />
+      <h4>[渋]谷駅 :: Shibuya-eki 3</h4>
+      <p>gouache on paper — 40in.x26in.</p>
+      <br />
+      <img src="./assets/images/interior/trekmatthews_Shinjuku_Eki1.jpg" />
+      <h4>新[宿]駅 :: Shinjuku-eki 1</h4>
+      <p>gouache on paper — 40in.x26in.</p>
+      <br />
+      <img src="./assets/images/interior/Shinjuku_Eki2_web.jpg" />
+      <h4>新宿[駅] :: Shinjuku-eki 2</h4>
+      <p>gouache on paper — 40in.x26in.</p>
+      <br />
+      <img src="./assets/images/interior/trekmatthews_Shinjuku_Eki3.jpg" />
+      <h4>[新]宿駅 :: Shinjuku-eki 3</h4>
+      <p>gouache on paper — 40in.x26in.</p>
+      <br />
+      <img src="./assets/images/interior/trekmatthews_shadow002-2.jpg" />
+      <h4>casted shadow study 002</h4>
+      <p>gouache on paper — 34in.x25in.</p>
+      <br />
+      <img src="./assets/images/interior/trekmatthews_shadow003.jpg" />
+      <h4>casted shadow study 003</h4>
+      <p>gouache on paper — 34in.x25in.</p>
+      <br />
+      <img src="./assets/images/interior/trekmatthews_ubahn-2.jpg" />
+      <img src="./assets/images/interior/trekmatthews_u3_2.jpg" />
+      <h4>[U]-Bahn &amp; U-[3]</h4>
+      <p>gouache on paper — 34in.x25in. each</p>
+      <br />
+      <img src="./assets/images/interior/trekmatthews_monotype_ramp2.jpg" />
+      <h4>bus composition: up hill</h4>
+      <p>monotype: oil on paper — 30in.x22in.</p>
+      <img src="./assets/images/interior/trekmatthews_monotype_j2.jpg" />
+      <h4>bus composition: en route</h4>
+      <p>monotype: oil on paper — 30in.x22in.</p>
+    </main>
+  </body>
+</html>
