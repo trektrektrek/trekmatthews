@@ -97,7 +97,7 @@ main video {
 }
 
 main.info img {
-  max-width: 60vw;
+  max-width: 100%;
 }
 
 main iframe.ratio12-19 {
@@ -106,10 +106,6 @@ main iframe.ratio12-19 {
 
 main iframe.ratio16-9 {
   height: calc(60vw * 0.5625);
-  width: 100%;
-}
-
-main iframe.ratio1-1 {
   width: 100%;
 }
 
@@ -126,6 +122,7 @@ main h4 {
 main p {
   font-family: "Nunito", sans-serif;
   padding-left: 1em;
+  padding-right: 1em;
   margin-bottom: 20px;
 }
 
