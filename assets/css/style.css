@@ -175,4 +175,7 @@ main p {
     height: calc(85vw * 0.5625);
     width: unset;
   }
+  main iframe.ratio1-1 {
+    max-height: 75vw;
+  }
 }
