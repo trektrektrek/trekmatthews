@@ -109,6 +109,10 @@ main iframe.ratio16-9 {
   width: 100%;
 }
 
+main iframe.ratio1-1 {
+  width: 100%;
+}
+
 main h4 {
   border-bottom: 0.3vh groove rgba(121, 99, 135, 0.12);
   color: #bbbbbb;
