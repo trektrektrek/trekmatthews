@@ -50,12 +50,12 @@ header nav div a {
 
 header nav div img {
   height: 2em;
-  transform: translateY(20px);
+  transform: translateY(30px);
   transition: transform 0.2s ease;
 }
 
 header nav div img.active {
-  transform: translate(-5px);
+  transform: translateY(-5px);
   transition: none;
 }
 
