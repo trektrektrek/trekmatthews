@@ -55,12 +55,12 @@ header nav div img {
 }
 
 header nav div img.active {
-  transform: unset;
+  transform: translate(-5px);
   transition: none;
 }
 
 header nav div:hover img {
-  transform: translateY(0);
+  transform: translateY(-5px);
 }
 
 header nav .link {
