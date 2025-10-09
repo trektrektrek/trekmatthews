@@ -1,0 +1,24 @@
+    <main class="info">
+      <div class="info-container">
+        <h4>hi@trekmatthews.com</h4>
+        <p>
+          Trek Matthews is an illustrator, painter, and designer based in
+          Chicago. His personal work focuses on arranging spaces and forms as
+          travelogue, by using letterforms and architectural reference collected
+          between destinations.
+        </p>
+        <p>
+          Trek has worked with commercial clients such as Dolby Laboratories,
+          Mailchimp, Waldorf Astoria, and W Hotels. He has also had the pleasure
+          to work on more intimate projects with Daedelus, Bleep Labs, Odd
+          Pears, and Eskmo, in addition to assisting design studios.
+        </p>
+        <h5>some press</h5>
+        <p>
+          Sight Unseen, Urban Outfitters Blog, FACT Magazine, Odd Pears, Slate,
+          gooood.hk, Thisispaper, Vandalog, Complex
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
